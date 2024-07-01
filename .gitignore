@@ -21,3 +21,5 @@
 go.work
 go.work.sum
 .idea
+cmd/gbend/config.toml
+main.toml
