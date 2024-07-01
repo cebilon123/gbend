@@ -1,0 +1,10 @@
+[entities]
+
+[entities.user]
+createdAt = "datetime"
+id = "id"
+name = "string"
+password = "string"
+
+[database]
+provider = "psql"
