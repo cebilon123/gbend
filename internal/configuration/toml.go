@@ -6,7 +6,8 @@ import (
 	"github.com/BurntSushi/toml"
 )
 
-type EntitiesMap map[string]map[string]any
+// EntitiesMap represents entities. Each entity contains field and type of that field.
+type EntitiesMap map[string]map[string]string
 
 type Config struct {
 	Entities EntitiesMap
